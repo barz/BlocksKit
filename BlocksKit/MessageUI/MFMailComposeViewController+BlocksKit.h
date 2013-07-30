@@ -26,7 +26,7 @@
  of MFMailComposeViewControllerDelegate.
 */
 
-typedef void (^BKMailComposeDidFinishBlock)(MFMailComposeViewController *, MFMailComposeResult, NSError *);
+typedef void (^BKMailComposeDidFinishBlock)(MFMailComposeViewController* mailViewController, MFMailComposeResult result, NSError* error);
 
 @property (nonatomic, copy) BKMailComposeDidFinishBlock     completionBlock;
 
