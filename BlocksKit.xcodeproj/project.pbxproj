@@ -1343,6 +1343,7 @@
 		6C3DBF981382F1BA00E6C9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Will Rodenbusch (DGGCFRTD3M)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libffi/ios/include";
 				LLVM_LTO = NO;
@@ -1356,6 +1357,7 @@
 		6C3DBF991382F1BA00E6C9AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BarZ Adventures";
 				GCC_DYNAMIC_NO_PIC = NO;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libffi/ios/include";
 				LLVM_LTO = NO;
