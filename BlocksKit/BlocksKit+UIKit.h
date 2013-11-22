@@ -24,6 +24,21 @@
 //  THE SOFTWARE.
 //
 
+
+// Hsoi 2013-11-22 - The change to a "BlocksKit-relative" import path breaks the ability
+// to build as a subproject. Changing that.
+#import "UIActionSheet+BlocksKit.h"
+#import "UIAlertView+BlocksKit.h"
+#import "UIBarButtonItem+BlocksKit.h"
+#import "UIControl+BlocksKit.h"
+#import "UIGestureRecognizer+BlocksKit.h"
+#import "UIPopoverController+BlocksKit.h"
+#import "UITextField+BlocksKit.h"
+#import "UIView+BlocksKit.h"
+#import "UIWebView+BlocksKit.h"
+#import "UITextField+BlocksKit.h"
+
+/*
 #import <BlocksKit/UIActionSheet+BlocksKit.h>
 #import <BlocksKit/UIAlertView+BlocksKit.h>
 #import <BlocksKit/UIBarButtonItem+BlocksKit.h>
@@ -34,3 +49,4 @@
 #import <BlocksKit/UIView+BlocksKit.h>
 #import <BlocksKit/UIWebView+BlocksKit.h>
 #import <BlocksKit/UITextField+BlocksKit.h>
+*/
