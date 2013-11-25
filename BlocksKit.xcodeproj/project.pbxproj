@@ -1506,10 +1506,12 @@
 			buildSettings = {
 				GCC_DYNAMIC_NO_PIC = NO;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libffi/ios/include";
+				LLVM_LTO = NO;
 				PRIVATE_HEADERS_FOLDER_PATH = "../$(PRODUCT_NAME)/$(PRODUCT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "../$(PRODUCT_NAME)/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -1518,10 +1520,12 @@
 			buildSettings = {
 				GCC_DYNAMIC_NO_PIC = NO;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libffi/ios/include";
+				LLVM_LTO = NO;
 				PRIVATE_HEADERS_FOLDER_PATH = "../$(PRODUCT_NAME)/$(PRODUCT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "../$(PRODUCT_NAME)/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
