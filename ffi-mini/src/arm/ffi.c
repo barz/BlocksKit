@@ -355,13 +355,19 @@ void ffi_mini_call(ffim_cif *cif, void (*fn)(void), void *rvalue, void **avalue)
   if (small_struct)
     {
       FFI_ASSERT(rvalue != NULL);
-      memcpy (rvalue, &temp, cif->rtype->size);
+        if (rvalue)
+        {
+            memcpy (rvalue, &temp, cif->rtype->size);
+        }
     }
     
   else if (vfp_struct)
     {
       FFI_ASSERT(rvalue != NULL);
-      memcpy (rvalue, ecif.rvalue, cif->rtype->size);
+        if (rvalue)
+        {
+            memcpy (rvalue, ecif.rvalue, cif->rtype->size);
+        }
     }
     
 }
