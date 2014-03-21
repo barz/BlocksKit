@@ -24,5 +24,12 @@
 //  THE SOFTWARE.
 //
 
+// Hsoi 2013-11-22 - The change to a "BlocksKit-relative" import path breaks the ability
+// to build as a subproject. Changing that.
+#import "MFMailComposeViewController+BlocksKit.h"
+#import "MFMessageComposeViewController+BlocksKit.h"
+
+/*
 #import <BlocksKit/MFMailComposeViewController+BlocksKit.h>
 #import <BlocksKit/MFMessageComposeViewController+BlocksKit.h>
+*/
