@@ -1,10 +1,9 @@
 //
-//  BlocksKit+MessageUI
+//  BlocksKit+QuickLook
 //
 //  The Objective-C block utilities you always wish you had.
 //
-//  Copyright (c) 2011-2012, 2013-2014 Zachary Waldowski
-//  Copyright (c) 2012-2013 Pandamonia LLC
+//  Copyright (c) 201 Boolean Candy Pty Ltd
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -25,12 +24,4 @@
 //  THE SOFTWARE.
 //
 
-// Hsoi 2013-11-22 - The change to a "BlocksKit-relative" import path breaks the ability
-// to build as a subproject. Changing that.
-#import "MFMailComposeViewController+BlocksKit.h"
-#import "MFMessageComposeViewController+BlocksKit.h"
-
-/*
-#import <BlocksKit/MFMailComposeViewController+BlocksKit.h>
-#import <BlocksKit/MFMessageComposeViewController+BlocksKit.h>
-*/
+#import <BlocksKit/QLPreviewController+BlocksKit.h>
