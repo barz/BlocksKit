@@ -299,7 +299,6 @@
 		43CE09E619866D0600F91137 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
 		DB5BF802185E8E6300FF2A0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DB5BF87F185E909300FF2A0B /* BK Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BK Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB981A00185E95C00047E817 /* BlocksKit-iOS-Tests-Runner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksKit-iOS-Tests-Runner-Info.plist"; sourceTree = "<group>"; };
 		DB981A03185E96A60047E817 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB981A05185E96EA0047E817 /* iOS-Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "iOS-Runner.m"; sourceTree = "<group>"; };
 		DBD7875218E0CE3A008DC59D /* XCTestCase+BKAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+BKAsyncTestCase.h"; sourceTree = "<group>"; };
@@ -314,15 +313,12 @@
 		DBFB08BE184DC23000F37EEE /* BlocksKit-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlocksKit-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB08BF184DC23000F37EEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DBFB08C2184DC23000F37EEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DBFB0926184DC2FB00F37EEE /* BlocksKit-iOS-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksKit-iOS-Tests-Info.plist"; sourceTree = "<group>"; };
 		DBFB092C184DC36400F37EEE /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB092D184DC36400F37EEE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DBFB0930184DC36400F37EEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBFB0931184DC36400F37EEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DBFB0932184DC36400F37EEE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DBFB0941184DC36400F37EEE /* BlocksKit-Mac-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlocksKit-Mac-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBFB0959184DC3EC00F37EEE /* BlocksKit-Mac-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksKit-Mac-Tests-Info.plist"; sourceTree = "<group>"; };
-		DBFB095B184DC42800F37EEE /* BlocksKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksKit-Info.plist"; sourceTree = "<group>"; };
 		DBFB095D184DC4FB00F37EEE /* Versions.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Versions.xcconfig; sourceTree = "<group>"; };
 		DBFB098A184DC7A200F37EEE /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
 		DBFB098B184DC7A200F37EEE /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlocksKit+UIKit.h"; sourceTree = "<group>"; };
@@ -396,7 +392,6 @@
 		DBFB0AB8184DCC9400F37EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DBFB0AB9184DCC9400F37EEE /* BKApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKApp.h; sourceTree = "<group>"; };
 		DBFB0ABA184DCC9400F37EEE /* BKApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKApp.m; sourceTree = "<group>"; };
-		DBFB0ABB184DCC9400F37EEE /* BlocksKit-Mac-Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BlocksKit-Mac-Demo-Info.plist"; sourceTree = "<group>"; };
 		DBFB0ABC184DCC9400F37EEE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DBFB0AC5184DCD6200F37EEE /* A2BlockDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2BlockDelegateTests.m; sourceTree = "<group>"; };
 		DBFB0AC7184DCD6200F37EEE /* A2BlockInvocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2BlockInvocationTests.m; sourceTree = "<group>"; };
@@ -628,9 +623,6 @@
 			children = (
 				DB981A05185E96EA0047E817 /* iOS-Runner.m */,
 				DB981A03185E96A60047E817 /* Images.xcassets */,
-				DB981A00185E95C00047E817 /* BlocksKit-iOS-Tests-Runner-Info.plist */,
-				DBFB0926184DC2FB00F37EEE /* BlocksKit-iOS-Tests-Info.plist */,
-				DBFB0959184DC3EC00F37EEE /* BlocksKit-Mac-Tests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -648,7 +640,6 @@
 		DBFB095A184DC41D00F37EEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DBFB095B184DC42800F37EEE /* BlocksKit-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -771,7 +762,6 @@
 				DBFB0AB7184DCC9400F37EEE /* MainMenu.xib */,
 				DBFB0AB9184DCC9400F37EEE /* BKApp.h */,
 				DBFB0ABA184DCC9400F37EEE /* BKApp.m */,
-				DBFB0ABB184DCC9400F37EEE /* BlocksKit-Mac-Demo-Info.plist */,
 				DBFB0ABC184DCC9400F37EEE /* main.m */,
 			);
 			path = MacDemo;
