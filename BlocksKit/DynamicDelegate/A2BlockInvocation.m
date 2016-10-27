@@ -77,11 +77,31 @@ typedef struct _BKBlock {
 
 	NSUInteger numberOfArguments = methodSignature.numberOfArguments;
 	for (NSUInteger i = 2; i < numberOfArguments; i++) {
+		
+		char argument1 = [methodSignature getArgumentTypeAtIndex:i][0];
+		char argument2 = [blockSignature getArgumentTypeAtIndex:i - 1][0];
+		if ([self argumentIsNumber:argument1] && [self argumentIsNumber:argument2])
+		{
+			continue;
+		}
+		
 		if ([methodSignature getArgumentTypeAtIndex:i][0] != [blockSignature getArgumentTypeAtIndex:i - 1][0])
+		{
 			return NO;
+		}
 	}
 
 	return YES;
+}
+
++(BOOL)argumentIsNumber:(char)argument
+{
+	if (argument == 'i' || argument == 's' || argument == 'l' || argument == 'q' || argument == 'I' || argument == 'S' || argument == 'L' || argument == 'Q')
+	{
+		return true;
+	}
+	
+	return false;
 }
 
 /** Inspects the given block literal and returns a compatible type signature.
